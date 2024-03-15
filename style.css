@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #96858F;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: rgb(0, 102, 255);
+}
+
+section {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 20px 0;
+    box-shadow: 0 0 20px #9099A2
+}
+
+footer {
+    background-color: #9099A2;
+    padding: 10px;
+    text-align: center;
+}
+
+.highlight {
+    background-color: #6D7993;
+}
+
+#biodata {
+    border: 1px solid black
+}
+
+#pendidikan {
+    border: 1px solid black;
+}
+
+#skills {
+    border: 1px solid black;
+}
+
+[href*="instagram"]{
+    color:#171717;
+}
+
+#pendidikan h2::first-line {
+    color:#f1f1f1;
+}
+
+#biodata h2::first-line {
+    color: #f1f1f1;
+}
+
+#skills h2::first-line {
+    color:#f1f1f1
+}
